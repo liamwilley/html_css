@@ -1,0 +1,19 @@
+html {
+  background: #342f33;
+}
+
+.wutang { margin: 100px auto 0; width: 576px; height: 577px; position:relative; }
+
+.head { position: absolute; width: 100px; height: 100px; background: #fdfb10; border-radius: 100px 100px 100px 0; z-index: 7; left: 225px; top: 185px; }
+.head::before { content: ""; background: #342f33; width: 81px; height: 30px; position: absolute; top: -8px; -webkit-transform: rotate(-25deg); left: -10px; }
+.head::after { background: #342f33; width: 7px; height: 15px; position: absolute; top: 30px; left: 0; content: ""; }
+.headfix { background:#fdfb10; -webkit-border-radius: 50%/60% 60% 40% 40%; -moz-border-radius: 50%/60% 60% 40% 40%; border-radius: 50%/60% 60% 40% 40%; position: absolute; width: 43px; height: 67px; top: 214px; left: 286px; z-index: 8; -webkit-transform: rotate(9deg); }
+.hmask { background: #342f33; -webkit-border-radius: 50%/60% 60% 40% 40%; -moz-border-radius: 50%/60% 60% 40% 40%; border-radius: 50%/60% 60% 40% 40%; position: absolute; width: 43px; height: 29px; top: 232px; left: 216px; z-index: 7; -webkit-transform: rotate(48deg); }
+.lwing { position:absolute; width:520px; height:520px; background:#fdfb10; border-radius:100%; z-index:3; }
+.rwing { position:absolute; width:565px; height:565px; background:#fdfb10; border-radius:100%; z-index:1; right:0; }
+.cmask { width: 145px; height: 145px; border-radius: 100%; background: #342f33; position: absolute; left: 208px; top: 135px; z-index: 6; }
+.blmask { position: absolute; height: 299px; width: 129px; background: #342f33; -webkit-transform: rotate(-50deg); bottom: -25px; left: 90px; z-index: 2; }
+.brmask { position: absolute; right: 230px; width: 100px; height: 162px; background: #342f33; border-radius: 50%; z-index: 2; bottom: 0px; -webkit-transform: rotate(23deg); }
+.bcmask { -webkit-transform: rotate(170deg); z-index:7; top: 375px; left: 274px; position: absolute; width: 80px; height: 150px; background-color: #342f33; -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px; border-radius: 50%  50%  50%  50%  / 60%   60%   40%  40%; }
+.tlmask { position: absolute; width: 255px; height: 170px; background: #342f33; -webkit-transform: rotate(16deg); top: -38px; z-index: 6; left: 75px; }
+.rlmask { position: absolute; width: 255px; height: 170px; background: #342f33; -webkit-transform: rotate(-26deg); top: -65px; z-index: 5; right: 80px; }
